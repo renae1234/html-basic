@@ -7,3 +7,11 @@ text-decoration:line-through;
   font-size:20px;color:blue;
 }
 .greentext{color:green;font-family: sans-serif;font-size:200px;font-style:italic;}
+
+
+.square{
+width:200px;
+height:200px;
+background-color: red;
+position:absolute;
+}

@@ -1,9 +1,43 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/styles.css" >
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+/*
+  $(".square").click(function(){
+    $(this).hide();
+  });
+
+$("#banana").click(function(){
+$(this).fadeOut();
+
+});
+*/
+$("#banana").click(function(){
+$(this).animate({right:"500px"},9000);
+
+});
+});
+
+
+</script>
+
 
   </head>
 <body>
+
+
+
+  <!--div class="square">
+
+  </div-->
+  <div class="square" id="banana">
+
+  </div>
     <!-- this is <menu>
 
     </menu>-->
